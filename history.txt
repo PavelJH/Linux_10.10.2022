@@ -1,0 +1,9 @@
+   0 touch chmodFile
+   1 date >chmodFile
+   2 vi chmodFile
+   3 ls -l
+   4 chmod u=xw chmodFile
+   5 chmod g=xr chmodFile
+   6 chmod o=r chmodFile
+   7 ls -l
+   8 history > history.txt
